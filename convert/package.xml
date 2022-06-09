@@ -44,6 +44,28 @@
         <name>ApexPage</name>
     </types>
     <types>
+        <members>AcquiredAccount__c.AcctId__c</members>
+        <members>AcquiredAccount__c.BillingState__c</members>
+        <members>AcquiredAccount__c.CloseDate__c</members>
+        <members>AcquiredAccount__c.Division__c</members>
+        <members>AcquiredAccount__c.Industry__c</members>
+        <members>AcquiredAccount__c.Ownership__c</members>
+        <members>AcquiredAccount__c.Rating__c</members>
+        <members>AcquiredAccount__c.StartDate__c</members>
+        <members>AcquiredAccount__c.Type__c</members>
+        <members>Job__c.Title__c</members>
+        <name>CustomField</name>
+    </types>
+    <types>
+        <members>AcquiredAccount__c</members>
+        <members>Job__c</members>
+        <name>CustomObject</name>
+    </types>
+    <types>
+        <members>Job__c.All</members>
+        <name>ListView</name>
+    </types>
+    <types>
         <members>DTC_Account</members>
         <members>DTC_Case</members>
         <members>DTC_Event</members>

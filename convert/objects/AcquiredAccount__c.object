@@ -153,14 +153,101 @@
     <enableSharing>true</enableSharing>
     <enableStreamingApi>true</enableStreamingApi>
     <externalSharingModel>Private</externalSharingModel>
-    <gender>Masculine</gender>
-    <label>Opportunity History</label>
+    <label>Acquired Account</label>
     <nameField>
-        <label>Opportunity History Name</label>
+        <label>Acquired Account Name</label>
         <type>Text</type>
     </nameField>
-    <pluralLabel>Opportunity Histories</pluralLabel>
+    <pluralLabel>Acquired Accounts</pluralLabel>
     <searchLayouts></searchLayouts>
     <sharingModel>ReadWrite</sharingModel>
+    <startsWith>Vowel</startsWith>
     <visibility>Public</visibility>
+    <fields>
+        <fullName>AcctId__c</fullName>
+        <externalId>false</externalId>
+        <label>AcctId</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>BillingState__c</fullName>
+        <externalId>false</externalId>
+        <label>BillingState</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CloseDate__c</fullName>
+        <externalId>false</externalId>
+        <label>CloseDate</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Division__c</fullName>
+        <externalId>false</externalId>
+        <label>Division</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Industry__c</fullName>
+        <externalId>false</externalId>
+        <label>Industry</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Ownership__c</fullName>
+        <externalId>false</externalId>
+        <label>Ownership</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rating__c</fullName>
+        <externalId>false</externalId>
+        <label>Rating</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>StartDate__c</fullName>
+        <externalId>false</externalId>
+        <label>StartDate</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <length>25</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
 </CustomObject>

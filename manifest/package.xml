@@ -29,7 +29,7 @@
         <name>LightningComponentBundle</name>
     </types>
     <types>
-        <members>*</members>
+        <members>Job__c</members>
         <name>CustomObject</name>
     </types>
     <types>
