@@ -4,6 +4,9 @@
     <layoutAssignments>
         <layout>Ville__c-Shop Layout</layout>
     </layoutAssignments>
+    <layoutAssignments>
+        <layout>Voucher__c-Voucher Layout</layout>
+    </layoutAssignments>
     <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
@@ -13,5 +16,15 @@
         <object>Ville__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>Voucher__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
     <userLicense>Salesforce</userLicense>
+    
 </Profile>
