@@ -13,7 +13,7 @@ public class DataManager_ActivityTest {
         System.enqueueJob(activityCreator);
         Test.stopTest();
         
-        System.assertEquals(241, [SELECT count() FROM Event WHERE What.Name LIKE 'Opportunity for%']);
-        System.assertEquals(241, [SELECT count() FROM Task WHERE What.Name LIKE 'Opportunity for%']); 
+        System.assertEquals(248, [SELECT count() FROM Event WHERE What.Name LIKE 'Opportunity for%']);
+        System.assertEquals(261, [SELECT count() FROM Task WHERE What.Name LIKE 'Opportunity for%']); 
     }
 }
